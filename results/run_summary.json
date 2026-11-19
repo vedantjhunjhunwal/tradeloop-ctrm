@@ -1,0 +1,84 @@
+{
+  "as_of": "2026-11-20",
+  "capture": {
+    "captured": 240,
+    "bad_tickets": 12,
+    "bad_tickets_rejected_by_expected_rule": 12,
+    "price_warnings": 0
+  },
+  "lifecycle": {
+    "amended": 15,
+    "cancelled": 8,
+    "settled": 26,
+    "status_counts": {
+      "VALIDATED": 34,
+      "CONFIRMED": 172,
+      "SETTLED": 26,
+      "CANCELLED": 8
+    }
+  },
+  "confirmations": {
+    "documents": 232,
+    "templates": 3,
+    "auto_matched": 198,
+    "exceptions": 34,
+    "injected_errors": 34,
+    "classified_correctly": 232,
+    "false_matches": 0
+  },
+  "reconciliation": {
+    "our_lines": 164,
+    "their_lines": 166,
+    "matched": 154,
+    "breaks_found": 15,
+    "breaks_injected": 15,
+    "injected_found_with_right_type": 15,
+    "false_breaks": 0,
+    "by_type": {
+      "MISSING_AT_CPTY": 3,
+      "MISSING_IN_OURS": 4,
+      "DUPLICATE": 1,
+      "QUANTITY": 1,
+      "AMOUNT": 6
+    }
+  },
+  "risk": {
+    "open_position_buckets": 42,
+    "mtm_by_book_usd": {
+      "CRUDE": 31830916.05,
+      "EU_GAS": 159826.92,
+      "EU_POWER": 1129129.03
+    },
+    "var": {
+      "window_days": 250,
+      "var95": 4226774.41,
+      "var99": 5254718.38,
+      "by_commodity_var95": {
+        "POWER_DE": 929497.83,
+        "GAS_TTF": 1455886.99,
+        "BRENT": 3577295.87
+      }
+    },
+    "pnl_explain_usd": {
+      "curve_move": 3015852.64,
+      "new_trades": -10549.83,
+      "total": 3005302.81,
+      "unexplained": 0.0
+    },
+    "credit": {
+      "OK": 4,
+      "WARN": 1,
+      "BREACH": 1
+    }
+  },
+  "reporting": {
+    "records": 263,
+    "by_action": {
+      "N": 240,
+      "M": 15,
+      "C": 8
+    },
+    "validation_errors": 0
+  },
+  "audit_events": 487
+}
