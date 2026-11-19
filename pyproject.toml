@@ -1,0 +1,9 @@
+[project]
+name = "tradeloop"
+version = "1.0.0"
+description = "Commodity trade lifecycle (CTRM) engine: capture, confirm, risk, settle, reconcile, report"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
